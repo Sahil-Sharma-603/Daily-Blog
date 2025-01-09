@@ -37,7 +37,6 @@ header::after{
 .profile-img{
     width:100px;
     height:100px;
-    background-color: white;
     border-radius:50%;
     background-image: url('/Users/sahil/Documents/Javascript Projects/JS projects/actual_blog app/blog app frontend/assets/profile.png');
     background-size: cover;
