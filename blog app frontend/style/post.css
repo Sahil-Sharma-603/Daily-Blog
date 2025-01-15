@@ -1,11 +1,23 @@
 /* ADD styling for all of the divs in post.html to match  */
 
-#individual-post-title {
+.main-container{
+    margin-top: 24px;
+    margin-left: 32px;
+    
+}
 
+#individual-post-title {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2em;
+    color: #454a48;
+    font-weight: 500;
+    margin-bottom: 24px;
 }
 
 #individual-post-date {
-
+  
 }
 
 #individual-post-content {

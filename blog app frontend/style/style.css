@@ -26,6 +26,7 @@ header{
 header > * {
     z-index: 10;
 }
+
 header::after{
     content:"";
     position:absolute;
@@ -53,8 +54,6 @@ header::after{
 .subtext{
     margin-top: 8px;
 }
-
-
 
 footer {
     min-height: 100px;
@@ -172,4 +171,14 @@ main{
 .nav-button.new-post-button:hover{
    background-color: #093a6e;
 
+}
+
+.navigation a{
+    text-decoration: none;
+    color: #004186;
+    padding: 16px;
+    border: 1px solid #004186 ;
+    border-radius: 5px;;
+    padding: 5px 8px;
+    
 }
