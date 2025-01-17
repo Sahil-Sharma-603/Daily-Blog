@@ -11,18 +11,20 @@ body {
 
 header{
     min-height: 350px;
-  
     color: white;
     display:flex;
     flex-direction: column;
     justify-content: center; /*  makes the content to center but attached to left side */
     align-items: center; /*  makes the content to center completely */
-    background-image: url('/Users/sahil/Documents/Javascript Projects/JS projects/actual_blog app/blog app frontend/assets/banner.jpeg');
+
     background-size: cover;
     background-position: center;
     position: relative;
 }
 
+.homepage header{
+    background-image: url(/assets/banner.jpeg);
+}
 header > * {
     z-index: 10;
 }
@@ -41,9 +43,8 @@ header::after{
     width:100px;
     height:100px;
     border-radius:50%;
-    background-image: url('/Users/sahil/Documents/Javascript Projects/JS projects/actual_blog app/blog app frontend/assets/profile.png');
     background-size: cover;
-    
+    background-image: url(/assets/profile.png);
 }
 
 .profile-name{
@@ -79,12 +80,10 @@ main{
 
 .main-container{
     max-width: 750px;
-    min-width: 600px;
+    min-width: 550px;
     width:100%;
     padding-left: 16px;
     padding-right: 16px;
-
-  
 }
 
 .post{
@@ -99,7 +98,6 @@ main{
 
 .post-image{
     flex-basis: 40%;
-    background-image: url('/Users/sahil/Documents/Javascript Projects/JS projects/actual_blog app/blog app frontend/assets/books.avif');
     background-size: cover;
     background-position: center;
   
@@ -181,4 +179,8 @@ main{
     border-radius: 5px;;
     padding: 5px 8px;
     
+}
+
+a.post-link{
+    text-decoration: none;
 }

@@ -1,8 +1,16 @@
 
-.main-container{
-    margin-top: 24px;
-    margin-left: 350px;
-    
+main{
+  margin-top:32px;
+ 
+  justify-content: center;
+}
+
+.post-main-container{
+  max-width: 750px;
+  min-width: 490px;
+  width:100%;
+  padding-left: 16px;
+  padding-right: 16px;
 }
 
 
@@ -32,3 +40,4 @@
 
 
 }
+
