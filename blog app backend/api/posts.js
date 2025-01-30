@@ -46,3 +46,6 @@ class Post{
 }
 
 module.exports = Post;
+
+
+// command to format json file - shift + option + F
